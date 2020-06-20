@@ -1,0 +1,105 @@
+
+#ui{
+    background-color: cornflowerblue;
+    opacity: 0.8;
+    margin-top: 5%;
+    height: 400px;
+    width: 700px;
+}
+
+
+
+#equation{
+    background-color: bisque;
+    opacity: 0.7;
+    height: 65px;
+    width: 100%;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    border: none;
+}
+
+
+
+#result{
+    background-color: darkgrey;
+    opacity: 0.7;
+    height: 65px;
+    width: 100%;
+
+    font-size: 60px;
+    border: none;
+}
+
+
+
+#clearTextDiv{
+    background-color: darkorange;
+}
+
+.clear{
+    background-color: darkorange;
+    height: 65px;
+    width: 348px;
+
+    font-size: 25px;
+    border: none;
+}
+
+.clear:hover{
+    background-color:darkcyan;
+}
+
+
+
+#operatorsDiv{
+    background-color: chocolate;
+}
+
+.operators{
+    background-color: chocolate;
+    height: 65px;
+    width: 172px;
+
+    font-size: 35px;
+    border: none;
+}
+
+.operators:hover{
+    background-color:darkcyan;
+}
+
+
+
+.operandsDiv{
+    background-color: chocolate;
+}
+
+.operands{
+    background-color: chocolate;
+    height: 65px;
+    width: 172px;
+
+    font-size: 35px;
+    border: none;
+}
+
+.operands:hover{
+    background-color:darkcyan;
+}
+
+
+
+#evaluate{
+    background-color: darkorange;
+    width: 100%;
+    height: 65px;
+
+    font-size: 25px;
+    border: none;
+}
+
+#evaluate:hover{
+    background-color:darkcyan;
+}

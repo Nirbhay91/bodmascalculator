@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <script src="calculator.js"></script>
+    <link rel="stylesheet" href="calculator ui.css">
+</head>
+<body>
+    
+    <center>
+
+         <div id="ui"> 
+            <input type="text" name="equation" id="equation" placeholder="enter equation">
+            <input type="text" name="result" id="result" placeholder="result">
+
+            <div id="clearTextDiv">
+                <input type="button" value="Clear" class="clear" name="clear" id="clear" onclick="clearEquation()">
+                <input type="button" value="Backspace" class="clear" name="backspace" id="backspace" onclick="backspace(equation.value)">
+            </div>
+            
+            <div id="operatorsDiv">
+                <input type="button" value="+" class="operators" name="add" id="add" onclick="append('+')">
+                <input type="button" value="-" class="operators" name="sub" id="sub" onclick="append('-')">
+                <input type="button" value="x" class="operators" name="mult" id="mult" onclick="append('*')">
+                <input type="button" value="/" class="operators" name="div" id="div" onclick="append('/')">
+            </div>
+            
+            <div class="operandsDiv">
+                <input type="button" value="1" class="operands" name="one" id="one" onclick="append('1')">
+                <input type="button" value="2" class="operands" name="two" id="two" onclick="append('2')">
+                <input type="button" value="3" class="operands" name="three" id="three" onclick="append('3')">
+
+                <input type="button" value="(" class="operators" name="open" id="open" onclick="append('(')">
+            </div>
+
+            <div class="operandsDiv">
+                <input type="button" value="4" class="operands" name="four" id="four" onclick="append('4')">
+                <input type="button" value="5" class="operands" name="five" id="five" onclick="append('5')">
+                <input type="button" value="6" class="operands" name="six" id="six" onclick="append('6')">
+    
+                <input type="button" value=")" class="operators" name="close" id="close" onclick="append(')')">
+            </div>
+
+            <div class="operandsDiv">
+                <input type="button" value="7" class="operands" name="seven" id="seven" onclick="append('7')">
+                <input type="button" value="8" class="operands" name="eight" id="eight" onclick="append('8')">
+                <input type="button" value="9" class="operands" name="nine" id="nine" onclick="append('9')">
+    
+                <input type="button" value="0" class="operands" name="zero" id="zero" onclick="append('0')">
+            </div>
+
+            <div id="clearTextDiv">
+                    <input type="button" value="Evaluate" class="" name="equal" id="evaluate" onclick="startEvaluation(equation.value)">
+                </div>
+         </div>
+           
+    </center>
+
+</body>
+</html>
